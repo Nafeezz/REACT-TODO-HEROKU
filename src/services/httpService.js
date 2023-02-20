@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiURL = "https://one0x-feb-23-node-todo-api.onrender.com/api/todo";
+const apiURL = "https://one0x-feb-node-todo-app-mtr6.onrender.com/api/todo/create";
 
 export function getTasks() {
   return axios.get(apiURL + "s");
